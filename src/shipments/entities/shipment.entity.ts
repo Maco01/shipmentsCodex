@@ -17,6 +17,8 @@ export class Shipment {
   @Column()
   shipmentStatus: string;
   @Column()
+  shipmentType: string;
+  @Column()
   estimatedArrival: string;
   @Column()
   Departure: string;

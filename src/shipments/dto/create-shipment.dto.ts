@@ -10,6 +10,8 @@ export class CreateShipment {
   @IsString()
   shipmentStatus: string;
   @IsString()
+  shipmentType: string;
+  @IsString()
   estimatedArrival: string;
   @IsString()
   Departure: string;
