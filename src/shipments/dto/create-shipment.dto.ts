@@ -4,9 +4,13 @@ export class CreateShipment {
   @IsNumber()
   trackingId: number;
   @IsString()
-  product: string;
+  productName: string;
   @IsNumber()
   weight: number;
+  @IsString()
+  shipmentStatus: string;
+  @IsString()
+  estimatedArrival: string;
   @IsString()
   Departure: string;
   @IsString()

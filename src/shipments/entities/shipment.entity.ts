@@ -9,11 +9,15 @@ export class Shipment {
   trackingId: number;
 
   @Column()
-  product: string;
+  productName: string;
 
   @Column()
   weight: number;
 
+  @Column()
+  shipmentStatus: string;
+  @Column()
+  estimatedArrival: string;
   @Column()
   Departure: string;
 
